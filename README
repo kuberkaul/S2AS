@@ -1,0 +1,8 @@
+Please find three folder by the name of :
+
+1. S2AS_Android - Contains the android app of the project and relative source code.
+2. Java_servlet - Contains the servlet deployed in the EC2 machine to send data from Android to the RDS database.
+3. Django Server - Contains the server logic and its relative code. 
+
+
+The project has been submitted by Kuber Kaul(kk2872), Digvijay Singh(ds3161) and Harshil Gandhi(hmg2138).

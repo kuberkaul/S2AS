@@ -1,0 +1,42 @@
+[03/May/2013 18:27:14] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:27:15] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:27:16] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:41] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:42] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:42] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:42] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:42] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:43] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:44] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:44] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:28:45] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:29:22] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:37:15] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:46:55] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:52:02] "GET /s2aas/ HTTP/1.1" 200 1058
+[03/May/2013 18:52:05] "POST /s2aas/sent/ HTTP/1.1" 200 145
+[03/May/2013 18:52:18] "POST /s2aas/sent/ HTTP/1.1" 200 186
+[03/May/2013 18:52:41] "POST /s2aas/sent/ HTTP/1.1" 200 186
+Validating models...
+
+0 errors found
+May 03, 2013 - 18:29:17
+Django version 1.5.1, using settings 'cmss.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Selected users: []
+Selected users: []
+Selected users: []
+[03/May/2013 19:09:01] "GET / HTTP/1.1" 404 1924
+[03/May/2013 19:09:04] "GET /s2aas HTTP/1.1" 301 0
+[03/May/2013 19:09:04] "GET /s2aas/ HTTP/1.1" 200 1189
+[03/May/2013 19:09:13] "POST /s2aas/sent/ HTTP/1.1" 200 145
+[03/May/2013 19:09:33] "GET /s2aas/ HTTP/1.1" 200 1189
+Validating models...
+
+0 errors found
+May 03, 2013 - 19:07:07
+Django version 1.5.1, using settings 'cmss.settings'
+Development server is running at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Selected users: []

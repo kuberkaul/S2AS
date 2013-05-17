@@ -1,0 +1,78 @@
+<html>
+<title>S2AS</title>
+<body bgcolor = "6699FF">
+<h1><font face="Arial" size="+2" color="660000">Subscribed Users </font></h1>
+<form action="/s2aas/final/" method="POST">
+{% csrf_token %}
+{% for n in names %}
+<input type="checkbox" name="users[]" value="{{n}}">{{n}}<br>
+{% endfor %}
+
+<h1><b><font face="Arial" size="+2" color="660000"> Sensors To be Used for them</font> </b></h1>
+<table border="3">
+<tr>
+<th>Motion</th>
+<th>Position/Battery</th>
+<th>Environment</th>
+</tr>
+<tr>
+<td><input type="checkbox" name="sensors[]" value="Accelerometer" > Accelerometer<br>
+</td>
+<td>
+<input type="checkbox" name="sensors[]" value="GPS" > GPS<br>
+</td>
+<td>
+<input type="checkbox" name="sensors[]" value="Barometer" > Barometer<br>
+</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="sensors[]" value="Gyroscope" > Gyroscope<br>
+</td>
+<td><input type="checkbox" name="sensors[]" value="Battery" > Battery<br>
+</td>
+<td>
+<input type="checkbox" name="sensors[]" value="Photometer" > Photometer<br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" name="sensors[]" value="Linear_Accelerometer" > Linear Accelerometer<br>
+</td>
+<td>
+</td>
+<td>
+<input type="checkbox" name="sensors[]" value="Thermometer" > Thermometer<br>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" name="sensors[]" value="Rotational_Vector" > Rotational Vector<br>
+</td>
+<td></td>
+<td><input type="checkbox" name="sensors[]" value="Microphone" > Microphone<br></td>
+</tr>
+</table>
+<!--
+<p>
+<h2>Motion</h2>
+ 
+<input type="checkbox" name="sensors[]" value="Gyroscope" > Gyroscope<br>
+<input type="checkbox" name="sensors[]" value="Gravity Sensor" > Gravity Sensor<br>
+<input type="checkbox" name="sensors[]" value="Rotational Vector" > Rotational Vectore<br>
+<h2>Position</h2>
+<input type="checkbox" name="sensors[]" value="Orientation" > Orientation<br>
+<input type="checkbox" name="sensors[]" value="Magnetometer" > Magnetometer<br>
+<h2>Environment</h2>
+<input type="checkbox" name="sensors[]" value="Barometer" > Barometer<br>
+<input type="checkbox" name="sensors[]" value="Photometer" > Photometer<br>
+<input type="checkbox" name="sensors[]" value="Thermometer" > Thermometer<br>
+-->
+<h3><font face="Arial" size="+2" color="660000">Number of samples per sensor</font></h3>
+<input id='state' name="Time[]" type="number" min="1" max="60" value="Time"><b> Number of samples per sensor</b><br>
+</p>
+
+
+<input type="submit">
+</form>
+</body>
+</html>

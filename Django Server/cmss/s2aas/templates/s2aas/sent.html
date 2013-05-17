@@ -1,0 +1,41 @@
+<html>
+<title>Results</title>
+<body bgcolor = "6699FF">
+<h1><font face="Arial" size="+2" color="660000"> Request sent to: </font></h1>
+<!-- <h2><font face="Arial" size="+2" color="660000"> Users:</font> </h2>
+{% for u in selected_users %}
+{{u}}
+{% endfor %}-->
+<table border="3">
+<tr>
+<th>Users requested for : </th>
+<th>Sensors requested for : </th>
+</tr>
+<tr>
+<td><font face="Arial" size="+2" color="660000"> {% for u in selected_users %}
+{{u}}
+{% endfor %} </font></td>
+<td>
+<font face="Arial" size="+2" color="660000">{% for s in selected_sensors %}
+{{s}}
+{% endfor %} </font>
+</td>
+</tr>
+</table>
+<h1> Values for sensors requested are:<h1>
+{% for p,v in print_data.items %}
+<h2>{{p}}</h2>
+{%for i in v%}
+{{i}}
+{%endfor %}
+{%endfor %}
+<h1> The final verdict is : </h1>
+</h2><b>{{verdict}}</b></h2>
+<!--<h2> <font face="Arial" size="+2" color="660000">for the following sensors </font></h2>
+{% for s in selected_sensors %}
+{{s}}
+{% endfor %}
+<h2> <font face="Arial" size="+2" color="660000">time range requested </font></h2>
+<h2> {{Time}} </h2>-->
+</body>
+</html>

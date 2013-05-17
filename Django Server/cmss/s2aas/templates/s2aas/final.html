@@ -1,0 +1,24 @@
+<html>
+<title>Intermediate</title>
+<body bgcolor = "6699FF">
+<form action="/s2aas/sent/" method="POST">
+
+
+
+<h1> <font face="Arial" size="+2" color="660000">Hit submit to proceed onto results!</font> </h1>
+<table border="3">
+<tr>
+<th><font face="Arial" size="+2" color="660000">The Users requested:</font> </th>
+</tr>
+<tr>
+<td><font face="Arial" size="+2" color="660000">{% for u in selected_users %}
+{{u}}
+{% endfor %}
+{% csrf_token %}</font> </td>
+</tr>
+
+
+<input type="submit"> 
+</form>
+</body>
+</html>
