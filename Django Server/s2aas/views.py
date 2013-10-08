@@ -56,30 +56,7 @@ def final(request):
     
 def sent(request):
     
-#    selected_users=request.POST.getlist('users[]')
-#    print "Selected users:",selected_users
-#    selected_sensors=request.POST.getlist('sensors[]')
-#    print "Selected sensors:", selected_sensors
-#    selected_time=request.POST.getlist('Time[]')
-#    print "selected time:", selected_time
-#    sensor_list = []
-#    timer = []
-#
-#    for sensors in selected_sensors: 
-#            sensor_list.append(str(sensors))
-#
-#    for user in selected_users:
-#        w=users.objects.all().values_list("name", "users_cellnumber")
-#        for name, number in w:			
-#            if user == name:
-#                client = TwilioRestClient(account_sid, auth_token)
-#                #message = client.sms.messages.create(to=number, from_="+15305549648",
-#                    #body='S2AAS- Sensors requested: '+str(sensor_list))
-#    
-#    
-#    print "entered sleep"
-#    
-#    print "finsihed sleep"
+
     for i in selected_time:
         if int(i) >=1:
             time_select = int(i)
